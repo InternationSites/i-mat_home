@@ -2,7 +2,7 @@
 
 .banner_box {
     position: relative;
-    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(/Img/galeria/proyecto_banner.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(./proyecto_banner.jpg) no-repeat center;
     background-size: cover;
     height: 40vh;
     width: 100%;
