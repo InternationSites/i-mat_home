@@ -1,0 +1,401 @@
+/* Aquí va el banner */
+
+.banner_box {
+    position: relative;
+    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(/Img/galeria/image1.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.banner_container{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    padding: 100px 150px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.banner_title{
+    width: 100%;
+    text-shadow: 1px 1px 2px black;  
+
+}
+
+.banner_title p{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.banner_title h3{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 45px;
+    
+}
+
+
+.banner_titulo{
+    align-items: center;
+    width: 100%;
+    font-size: 65px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 55px;
+}
+
+
+
+.banner_button{
+    position: inherit;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #c1e623;
+    width: 35px;
+    height: 35px;
+    border-style: hidden;
+    transition: background-color .5s;
+}
+
+.banner_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* FIN del banner */
+
+/* Aquí va la parte de Cooperación */
+
+.about_container{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+
+}
+
+.about_titulo{
+    width: 100%;
+}
+
+.about_title h1{
+    font-size: 55px;
+}
+
+.about_text p{
+
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/* FIN de la parte de Cooperación */
+
+
+/* Aquí va la data */
+
+.data_wrapper{
+    width: 80vw;
+    margin: 70px 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 55px;
+
+}
+
+.data_container{
+    width: 15vmin;
+    height: 15vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    position: relative;
+    color: #c1e623;
+    text-align: center;
+}
+
+
+
+.data_num{
+    font-size: 85px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.data_text{
+    color: #c1e623;
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+}
+
+/* FIN de la data */
+
+
+
+/* Aquí va la conferencia */
+
+.conferencia_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+}
+
+.conferencia_titulo {
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.conferencia_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+iframe {
+    width: 760px;
+    height: 515px;
+    margin-bottom: 35px;
+
+}
+
+/* FIN de la conferencia */
+
+
+
+/* Aquí va Kick-OFF*/
+
+
+.kickOff_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+}
+
+.kickOff_titulo {
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.kickOff_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+
+
+
+/* Aquí va la galeria */
+
+.carousel-control-prev-icon{
+    background-color: #c1e623;
+}
+
+.carousel-control-next-icon{
+    background-color: #c1e623;
+}
+
+/*FIN GALERIA*/
+
+/*Aquí va la parte Miembros*/
+
+.miembros_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+}
+
+.miembros_titulo {
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.miembros_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+/* Aquí va la parte de Aliados*/
+
+.aliados_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+}
+
+.aliados_titulo {
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.aliados_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+
+/*Aquí va la parte de Contacto*/
+
+.contacto_container {
+    display: flex;
+    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(144,66,147,.6) 100%), url(/Img/galeria/image1.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contacto_informacion{
+    width: 80%;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.contacto_intro{
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacto_titulo, .contacto_mail{
+    font-size: 75px;
+    text-decoration: none;
+    color: #ffffff;
+
+    margin-bottom: 10px;
+}
+
+.contacto_mail:hover{
+    color: greenyellow;
+}
+
+.contacto_parrafo{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contacto_botones{
+    width: 20%;
+
+}
+
+.contacto_botones ul{
+    list-style: none;
+}
+
+.contacto_botones ul li{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    float: left;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li .fa{
+    color: #ffffff;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+
+.contacto_botones ul li:hover.facebook{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover .fa-facebook{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover.instagram{
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all .5s ease;
+}
+
+
+/*FIN contacto*/
+
+
+/* Aquí va el responsive */
+
+@media (max-width: 1080px) {
+
+    .about_container{
+        flex-wrap: wrap;
+    }
+
+    .data_wrapper{
+        width: 85vw;
+    }
+
+    .data_container{
+        height: 12vmin;
+        width: 12vmin;
+    }
+
+    .data_num{
+        font-size: 65px;
+    }
+
+    .contacto_container{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 768px){
+    .data_wrapper{
+        width: 90vw;
+        margin: 50px 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}

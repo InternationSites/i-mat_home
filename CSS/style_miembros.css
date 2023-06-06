@@ -1,0 +1,90 @@
+/*SECCIÓN BANNER*/
+
+.banner_box {
+    position: relative;
+    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(/Img/galeria/proyecto_banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.banner_container{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    padding: 130px 150px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.banner_title{
+    width: 100%;
+}
+
+
+.banner_titulo{
+    width: 100%;
+    font-size: 65px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+
+.banner_button{
+    position: inherit;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #c1e623;
+    width: 35px;
+    height: 35px;
+    border-style: hidden;
+    transition: background-color .5s;
+}
+
+.banner_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*FIN -- SECCIÓN BANNER*/
+
+/*==============================================*/
+
+/*SECCIÓN MIEMBROS*/
+
+.miembros_container, .miembros_containerDos{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 150px;
+}
+
+.miembros_card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    overflow: hidden;
+    width: 590px;
+    height: 230px;
+}
+.miembros_imagen img{
+    width: 98;
+    height: 128px;
+}
+
+.miembros_informacion a{
+    text-decoration: none;
+}
+
+.miembros_informacion a:hover{
+    color: purple;
+}
+
+/*FIN -- SECCIÓN MIEMBROS*/

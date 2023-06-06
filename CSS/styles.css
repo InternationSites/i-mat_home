@@ -1,0 +1,244 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: #000000;
+}
+
+h1{
+    font-weight: 900;
+}
+
+h3{
+    font-size:25px;
+}
+
+
+
+/* Aqui va todo el navbar */
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #c1e623;
+    justify-content: space-between;
+    background-color: #000000;
+    z-index: 10;
+}
+
+
+.logo {
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 100px;
+    z-index: 11;
+}
+
+.navbar{
+    z-index: 12;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    margin-right: 15px; 
+
+}
+
+.navbar-list li a{
+    text-decoration: none;
+    color: var(--very-light-pink);
+    transition: all .3s;
+}
+
+.navbar-list li a:hover{
+    color: #c1e623;
+    border: 1px solid #c1e623;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.abrir_menu, .cerrar_menu{
+    display: none;
+}
+
+
+/* FIN del navbar */
+
+
+/*buscador*/
+
+#ctn-icon-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all .3s;
+}
+
+#ctn-icon-search:hover{
+    color: #c1e623;
+}
+
+#ctn-bars-search{
+    position: fixed;
+    display: none;
+    top: 60px;
+    width: 100%;
+    background-color:#c1e623;
+    padding: 10px;
+    z-index: 9;
+    transition: all .6s ease;
+}
+
+#ctn-bars-search input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    font-size: 18px;
+    outline: 0;
+}
+
+#box-search{
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background-color: #ffffff;
+    padding: 5px;
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+}
+
+#box-search li a{
+    display: block;
+    width: 100%;
+    color: #7c7b7b;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+#box-search li a:hover{
+    background-color: #f7f7f7;
+}
+
+#box-search li a i{
+    margin-right: 10px;
+    color: #777;
+}
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 7;
+    display: none;
+    transition: all .6s ease;
+}
+
+/*fin del buscador*/
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer{
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+
+/* Aquí va el responsive */
+
+@media (max-width: 1080px) {
+
+    .abrir_menu, .cerrar_menu{
+        display: block;
+        border: 0;
+        font-size: 25px;
+        background-color: transparent;
+        cursor: pointer;
+        color: purple;
+    }
+
+    .abrir_menu:hover, .cerrar_menu:hover{
+        color: darkorange;
+    }
+
+    .navbar{
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffffff;
+        padding: 16px;
+        box-shadow: 0 0 0 .5vmax rgba(0, 0, 0, .2);
+    }
+    
+    .navbar.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+}
+
