@@ -77,15 +77,15 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    width: 330px;
+    width: 340px;
     height: 230px;
 }
 .miembros_imagen img{
-    width: 98;
-    height: 128px;
+    width: 100%;
+    height: 100%;
 }
 
-.miembros_informacion h5{
+.miembros_informacion h6{
     font-weight: 900;
 }
 
@@ -95,8 +95,14 @@
     color: #c1e623;
 }
 
+.miembros_informacion p{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 .miembros_informacion a{
     text-decoration: none;
+    font-size: 15spx;
 }
 
 .miembros_informacion a:hover{
