@@ -86,6 +86,7 @@
 }
 .miembros_card:hover{
     box-shadow: 2px 2px 2px 2px rgba(193,230,35, 0.1);
+    border: 1px solid #c1e623;
 }
 
 .miembros_imagen img{
