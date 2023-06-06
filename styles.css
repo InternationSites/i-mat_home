@@ -188,11 +188,13 @@ footer{
     background-color: #000000;
     justify-content: center;
     height: 50px;
+    border-top: 1px solid #c1e623;
 }
 
 .footer{
     margin-top: 10px;
     color: #ffffff;
+    
 }
 
 

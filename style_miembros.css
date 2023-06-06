@@ -58,25 +58,41 @@
 
 /*SECCIÓN MIEMBROS*/
 
-.miembros_container, .miembros_containerDos{
+.miembros_containerMain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.miembros_containerUno, .miembros_containerDos, .miembros_containerTres{
     display: flex;
     gap: 35px;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    margin: 60px 150px;
+    margin: 60px 60px;
 }
 
 .miembros_card{
     display: flex;
     gap: 20px;
     align-items: center;
-    overflow: hidden;
-    width: 590px;
+    width: 330px;
     height: 230px;
 }
 .miembros_imagen img{
     width: 98;
     height: 128px;
+}
+
+.miembros_informacion h5{
+    font-weight: 900;
+}
+
+
+
+.miembros_informacion .fa-user{
+    color: #c1e623;
 }
 
 .miembros_informacion a{
