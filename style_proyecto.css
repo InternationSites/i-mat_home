@@ -5,52 +5,11 @@
     background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(BANNER_PROJECT.png) no-repeat center;
     background-size: cover;
     height: 500px;
-    width: 100vw;
+    max-width: 1920px;
 
 }
 
 
-
-.banner_container{
-    display: flex;
-    gap: 20px;
-    color: #ffffff;
-    padding: 130px 150px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-
-.banner_title{
-    width: 100%;
-}
-
-
-.banner_titulo{
-    width: 100%;
-    font-size: 65px;
-    font-weight: 900;
-    color: #ffffff;
-}
-
-
-
-.banner_button{
-    position: inherit;
-    border-radius: 100%;
-    background-color: #000000;
-    color: #c1e623;
-    width: 35px;
-    height: 35px;
-    border-style: hidden;
-    transition: background-color .5s;
-}
-
-.banner_button:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
 
 /*FIN -- SECCIÓN BANNER*/
 
@@ -107,13 +66,6 @@
     border-bottom: 1px solid #5a5a5a38;
 }
 
-.objetivoGeneral_titulo{
-    width: 34%;
-}
-
-.objetivoGeneral_titulo h4{
-    font-weight: 900;
-}
 
 .objetivoGeneral_parrafo {
     display: flex;
@@ -227,3 +179,66 @@ label+.paquetes_tab{
 }
 
 /*FIN -- SECCIÓN PAQUETES*/
+
+
+@media (max-width: 1080px){
+    /*banner*/
+
+    /*SECCIÓN OBJETIVO ESPECIFICO*/
+
+    .obejtivoEspecifico_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:  50px;
+
+       
+    }
+
+    .obejtivoEspecifico_titulo{
+        width: 100%;
+    }
+    
+    .obejtivoEspecifico_titulo h4{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+
+    /*FIN -- SECCIÓN OBJETIVO ESPECIFICO*/
+
+/*==============================================*/
+
+    /*SECCIÓN PAQUETES*/
+
+    .paquetes_container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .paquetes_titulo{
+        width: 100%;
+    }
+
+    .paquetes_titulo h4{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    .paquetes_informacion{
+        width: 100%;
+    }
+
+    .paquetes_tabs label{
+        order: 1;
+        display: block;
+        padding: 5px 10px;
+        margin-right: 3px;
+        
+    }
+}
