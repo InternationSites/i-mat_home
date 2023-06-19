@@ -2,7 +2,7 @@
 
 .banner_box {
     position: relative;
-    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(BANNER_PROJECT.png) no-repeat center;
+    background: url(BANNER_PROJECT.png) no-repeat center;
     background-size: cover;
     height: 500px;
     max-width: 1920px;

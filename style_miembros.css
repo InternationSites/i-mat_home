@@ -2,7 +2,7 @@
 
 .banner_box {
     position: relative;
-    background: linear-gradient(0deg, rgba(193,230,35,.1) 0%, rgba(193,230,35,.3) 100%), url(proyecto_banner.jpg) no-repeat center;
+    background: url(proyecto_banner.jpg) no-repeat center;
     background-size: cover;
     height: 40vh;
     width: 100%;
@@ -78,12 +78,17 @@
 
 .miembros_card{
     display: flex;
+    flex-direction: column;
     gap: 10px;
     align-items: center;
+    justify-content: center;
     width: 350px;
-    height: 230px;
+    height: 335px;
     padding: 15px;
+    background-color: white;
+    text-align: center;
 }
+
 .miembros_card:hover{
     box-shadow: 2px 2px 2px 2px rgba(193,230,35, 0.1);
     border: 1px solid #c1e623;
@@ -118,4 +123,25 @@
     color: purple;
 }
 
+.miembros_containerMobile{
+    display: none;
+}
+
 /*FIN -- SECCIÓN MIEMBROS*/
+
+
+
+@media (max-width: 1080px){
+
+    .miembros_containerMain{
+        display: none;
+    }
+
+    .miembros_containerMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
