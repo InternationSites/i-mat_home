@@ -79,11 +79,11 @@
 .miembros_card{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
     width: 350px;
-    height: 335px;
+    height: 350px;
     padding: 15px;
     background-color: white;
     text-align: center;
@@ -94,13 +94,22 @@
     border: 1px solid #c1e623;
 }
 
+.miembros_imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
 .miembros_imagen img{
-    width: 100%;
-    height: 100%;
+    width: 75%;
+
 }
 
 .miembros_informacion h6{
+    display: none;
     font-weight: 900;
+    padding: 5px;
 }
 
 
@@ -110,7 +119,8 @@
 }
 
 .miembros_informacion p{
-    margin-top: 15px;
+    font-weight: 900;
+    margin-top: 8px;
     margin-bottom: 0;
 }
 

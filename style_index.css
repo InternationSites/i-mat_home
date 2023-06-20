@@ -2,7 +2,7 @@
 
 .banner_box {
     position: relative;
-    background: url(image1.jpeg) no-repeat center;
+    background: url(/banner.jpg) no-repeat center;
     background-size: cover;
     height: 65vh;
     width: 100%;
@@ -44,7 +44,7 @@
 .banner_titulo{
     align-items: center;
     width: 100%;
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 900;
     color: #ffffff;
     margin-bottom: 55px;
@@ -155,7 +155,7 @@
 }
 
 .kickOff_titulo {
-    font-size: 85px;
+    font-size: 65px;
     margin-bottom: 10px;
 }
 
@@ -170,6 +170,11 @@
 
 
 /* Aquí va la galeria */
+
+#carouselExample {
+    width: 75%;
+
+}
 
 .carousel-control-prev-icon{
     background-color: #c1e623;
@@ -194,7 +199,7 @@
 }
 
 .miembros_titulo {
-    font-size: 85px;
+    font-size: 65px;
     margin-bottom: 10px;
 }
 
@@ -208,15 +213,18 @@
 .miembros_logos{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
-    margin-top: 75px;
+    gap: 60px;
+    margin-top: 30px;
+    
 }
 
 .miembro_logo{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 25px
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
 }
 
 
