@@ -2,7 +2,7 @@
 
 .banner_box {
     position: relative;
-    background: url(/banner.jpg) no-repeat center;
+    background: url(banner.jpg) no-repeat center;
     background-size: cover;
     height: 65vh;
     width: 100%;
